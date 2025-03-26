@@ -12,6 +12,8 @@ app.use(express.json());
 require("dotenv").config();
 app.use(cookieParser())
 
+
+
 connectDB();
 
 app.use(productRoutes);
